@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": [
+      "ESNext"
+    ],
+    "esModuleInterop": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": false,
+    "jsx": "preserve",
+    "outDir": "./dist/",
+    "noEmit": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "importHelpers": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "*"
+      ],
+      "~/*": [
+        "*"
+      ]
+    },
+    "types": [
+      "@types/node",
+      "@types/react",
+      "next",
+      // "./types/main.d.ts"
+    ],
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "styles/themes.tsx", "components/Util/ActiveLink.jsx"
+  ]
+}
